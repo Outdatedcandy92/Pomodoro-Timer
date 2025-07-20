@@ -1,6 +1,7 @@
 ## What am I making?
 I'm making a low powered, battery operated desk timer with mechanical switches on top for control and a 2.13 inch E-Ink display.
 
+## Total Time Spent: 19 Hours
 
 
 # Day 1 - 9th July
@@ -18,6 +19,8 @@ After a bit of research I decided to go with the ESP32-C3 chip, I looked at the 
 
 Overall I did not like the board and I think I'll switch to a M0 based MCU for even lower power consumption
 
+### Time Spent: 3 Hours
+
 # Day 2 -10th July
 
 After some research (chatgpt) I decided to use the ATSAMD21E18A as my new MCU.
@@ -25,7 +28,10 @@ Working with this was *kinda* weird, it dosen't have any traditional hardware de
 It used a lot less passives compared to the ESP32 in order to work, all in all I think it was like 4 passive for the board to function (just decoupling capacitors). 
 I did decide to opt in for an external 32k crystal for time keeping as the internal crystal is BAD.
 
+![img](https://hc-cdn.hel1.your-objectstorage.com/s/v3/4d835407c11d3d2296a9850b8043d9db5a42488c_image.png)
 
+
+### Time Spent: 6 Hours (i spent 5 hours 59 min reading the datasheet)
 # Day 3 - 12th July
 
 Finished routing the inital PCB, I unfortunately had to use 0.2mm vias because 0.3 were just not gonna work because it was such a small board, 0.2mm vias did add a HUGEEEE cost
@@ -38,7 +44,7 @@ But here is the finally result-
 
 ![img](https://hc-cdn.hel1.your-objectstorage.com/s/v3/2ecf76765e6c006eb0fbc3a581dd0e2de5f16d27_image.png)
 
-
+### Time Spent: 4 Hours
 # Day 4 - 13th July
 
 I posted the board in r/printedcircuitboard for a review, it turns out I was using the wrong inductor value, it had a really high dcr. I swapped it out for a better on and I also just decided to switch to using TPS63900 as its smaller and provides a good output current.
@@ -52,6 +58,7 @@ I also started on the 3D model for this project, I had to reverse engineer the 3
 ![img](https://hc-cdn.hel1.your-objectstorage.com/s/v3/c7b4beefb16867775129ab52542a575a747a8a27_image.png)
 ![img](https://hc-cdn.hel1.your-objectstorage.com/s/v3/c6e474ba9397acdc7d6b13324c28637fbf991c67_image.png)
 
+### Time Spent: 5 hours
 
 # Day 5 - July 19
 
@@ -63,3 +70,4 @@ I updated my pcb design just a bit, I switched out my usb c connector to a more 
 
 ![img](https://hc-cdn.hel1.your-objectstorage.com/s/v3/d0083b9b5fc281d4dfe5e9562ac29c86548fdcf7_image.png)
 
+### Time Spent: 1 hour
