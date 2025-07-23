@@ -3,7 +3,7 @@
 A low-powered, battery-operated desk timer designed to help you stay productive using the Pomodoro technique. This timer is powered by AA batteries and features a custom-built ATSAMD21-based board optimized for low power consumption and battery efficiency. It updates a 2.13-inch E-Ink display to show the timer and includes three mechanical switches for control.
 
 ![img](https://hc-cdn.hel1.your-objectstorage.com/s/v3/9f92bc196dc510eda99b38b26db49806c784ea1a_pomodoro_timer_v2.png)
-
+![img](https://hc-cdn.hel1.your-objectstorage.com/s/v3/d6c040ffeeba3999fd70acc4d5286dfd8abdd8e6_pomodoro_timer_v3.png)
 ## Features
 
 - **Low Power Consumption**: Designed to run efficiently on AA batteries for extended periods.
